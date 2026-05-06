@@ -18,6 +18,9 @@ An Android application built in Kotlin using Room Database to help users track t
 ## Youtube Video of the app
 https://youtube.com/shorts/IvHuSdOyn24?feature=share
 
+## Git Hub Link
+https://github.com/Blvd54/OPSC-Part2
+
 ## Technologies Used
 - Kotlin
 - Room Database (SQLite)
