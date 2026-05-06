@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8F9FA">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Pfunzo!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Monthly Budget Goal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly Budget Goal:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"/>
+
+    <TextView
+        android:id="@+id/tvMonthlyGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R 0.00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#10B981"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etMonthlyGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new goal amount"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnSetGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💰 Set Monthly Budget Goal"
+        android:backgroundTint="#3B82F6"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Total Spent -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Spent This Month:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"/>
+
+    <TextView
+        android:id="@+id/tvTotalSpent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R 0.00"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#EF4444"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Add New Expense"
+        android:backgroundTint="#10B981"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 View All Expenses"
+        android:backgroundTint="#6366F1"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚪 Logout"
+        android:backgroundTint="#EF4444"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
