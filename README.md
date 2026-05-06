@@ -1,8 +1,8 @@
 # Money Manager - Expense Tracker
 
 # Names: 
-Marema Phathutshedzo - ST10442530
-Ravele Vele - ST10446018
+Marema Phathutshedzo - ST10442530,
+Ravele Vele - ST10446018,
 Netshirando faranani - ST10443627
 
 ## Project Description
